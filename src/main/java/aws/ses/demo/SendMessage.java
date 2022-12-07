@@ -63,7 +63,7 @@ public class SendMessage {
 
         // The HTML body of the email.
         String bodyHTML = "<html>" + "<head></head>" + "<body>" + "<h1>Hello!</h1>"
-                + "<p> See the list of customers.——</p>" + "</body>" + "</html>";
+                + "<p> 这里是正文部分.——</p>" + "</body>" + "</html>";
 
         try {
             send(client, sender, recipient, subject, bodyText, bodyHTML);
